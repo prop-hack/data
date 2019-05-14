@@ -5,6 +5,6 @@ Each folder corresponds to a different type of data and we will aim to combine a
 
 Below is a list of all the available data.
 
-### [Transaction Data](transaction-data/README.md)
+### [Transaction Data](transaction-data)
 
 Taken from Land Registry. This data gives numbers of applications for first registrations, leases, transfers of part, dealings, official copies and searches completed with HM Land Registry by account holders in the preceding month.
