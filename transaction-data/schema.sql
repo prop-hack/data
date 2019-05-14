@@ -5,7 +5,7 @@ CREATE TABLE `application_type` (
   `type` char(7) NOT NULL,
   `name` varchar(100) NOT NULL,
   `description` varchar(255) NOT NULL,
-  PRIMARY KEY (`type`),
+  PRIMARY KEY (`type`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO application_type (type, name, description)
