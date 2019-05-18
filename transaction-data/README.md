@@ -9,7 +9,7 @@ The information is divided into data showing all applications completed, transac
 
 We have created tools to easily download the Land Registry data you need, either a single file or bulk data from a date range. There are sample SQL schema files to get you started in putting this into a Database.
 
-Contains HM Land Registry data © Crown copyright and database right 2019. This data is licensed under the Open Government Licence v3.0.
+*Contains HM Land Registry data © Crown copyright and database right 2019. This data is licensed under the Open Government Licence v3.0.*
 
 ## What tools are available
 1. The `trans-downloader` is a command line tool for downloading transaction data in **CSV** format

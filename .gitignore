@@ -1,0 +1,17 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Optional IDE data
+.idea/
+
+# OS specific
+.DS_Store
