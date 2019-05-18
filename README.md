@@ -7,4 +7,12 @@ Below is a list of all the available data.
 
 ### [Transaction Data](transaction-data)
 
-Taken from Land Registry. This data gives numbers of applications for first registrations, leases, transfers of part, dealings, official copies and searches completed with HM Land Registry by account holders in the preceding month.
+Taken from [Land Registry](https://www.gov.uk/guidance/hm-land-registry-transaction-data). This data gives numbers of applications for first registrations, leases, transfers of part, dealings, official copies and searches completed with HM Land Registry by account holders in the preceding month.
+
+### [Price Paid Data](price-paid-data)
+
+Taken from [Land Registry](https://www.gov.uk/government/statistical-data-sets/price-paid-data-downloads). This data shows all propertly sales within England and Wales that were lodged for registration with the Land Registry.
+
+### [House Price Index Data](hpi-data)
+
+Taken from [Land Registry](https://www.gov.uk/government/publications/hm-land-registry-data/public-data). This data shows UK House Price changes in the value of residential properties across the UK and over a period of time.
