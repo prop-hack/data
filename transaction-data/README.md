@@ -1,4 +1,3 @@
-
 # Transaction Data
 
 Transaction data from
@@ -10,24 +9,30 @@ The information is divided into data showing all applications completed, transac
 
 We have created tools to easily download the Land Registry data you need, either a single file or bulk data from a date range. There are sample SQL schema files to get you started in putting this into a Database.
 
+*Contains HM Land Registry data © Crown copyright and database right 2019. This data is licensed under the Open Government Licence v3.0.*
+
 ## What tools are available
-1. The downloader is a command line tool for downloading transaction data in **CSV** format
-2. The schema is a sample SQL table definition that can load the transaction data.
-3. The sample file is a short data sample so you can see what the data looks like before downloading
+1. The `trans-downloader` is a command line tool for downloading transaction data in **CSV** format
+2. The `schema` is a SQL table definition that can load the transaction data. Only designed for regional and local authority data.
 
 ## How to run the downloader
 The general format for running this script is:
 
-```downloader.py <type-of-data> -s [start-date] -e [end-date]```
+```trans-downloader.py <type-of-data> -s [start-date] -e [end-date]```
 
-The type is required and if you do not specify a date then it will download todays data. You can download a range of data by specifiying a start and end date, the downloaded data will be split in to multiple monthly files.
-To download a specific month, you can just specify the start date.
+The type is required, running help will show you the supported types of data you can download.
+
+Date is optional and if you do not specify a date then it will attempt to download this month's data. You can download a range of data by specifiying a start and end date, the downloaded data will be split in to multiple monthly files.
+
+To download a single month, you can just specify the start date.
 
 All the dates should be in **YYYY-MM** format and files are downloaded in **CSV** format.
 
+If you get a 404 error, it generally means the data for that period is not available.
+
 You can also run the help option at anytime:
 
-```downloalder.py --help```
+```trans-downloalder.py --help```
 
 ## Schema File
 The provided SQL will create a normalised schema for holding this transaction data.
@@ -36,7 +41,7 @@ There are two tables, one for storing the actual transaction data and another ta
 
 ## What the data means
 
-This data uses abbreviations, here is a snippet from Land Registry with all the definitions.
+This data uses abbreviations, here is a snippet from [Land Registry](https://www.gov.uk/guidance/hm-land-registry-transaction-data) with all the definitions.
 
 | Acronym |	Title | Description |
 | --------|-------|-------------|
