@@ -19,4 +19,4 @@ Taken from [Land Registry](https://www.gov.uk/government/publications/hm-land-re
 
 ### [Static Data](static-data)
 
-Here is a collection of useful static data, primarily related to location information. This includes regional, local authority and postcode data with simple database schema files to get started as a base. This static data usually connects up with the previos data from Land Registry and can be connected to other property data from various sources.
+Here is a collection of useful static data, primarily related to location information. This includes regional, local authority and postcode data with simple database schema files to get started as a base. This static data usually connects up with the previous data from Land Registry and can be connected to other property data from various sources.
