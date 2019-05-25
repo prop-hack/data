@@ -27,14 +27,8 @@ You can also run the help option at anytime:
 
 The data contains the following information:
 
+- Date of Transfer
 - Price paid
-- Address
-    - Postcode
-    - Building Name / Number
-    - Street
-    - Town or City
-    - District
-    - County
 - Property Type (as a single character)
     - Detached (D)
     - Semi-Detached (S)
@@ -45,3 +39,27 @@ The data contains the following information:
 - Estate Type (as a single character)
     - Freehold (F)
     - Leasehold (L)
+- Address
+    - Postcode
+    - Primary Name / Number
+    - Secondary Name / Number
+    - Street
+    - Town or City
+    - District
+    - County
+- Category Type
+    - A = Standard Price Paid entry, includes single residential property sold for full market value.
+    - B = Additional Price Paid entry including transfers under a power of sale/repossessions, buy-to-lets (where they can be identified by a Mortgage) and transfers to non-private individuals.
+- Record Status
+    - A = Addition
+    - C = Change
+    - D = Delete
+
+## Note on Record Status
+It is important to use the Record Status in the CSV to update your stored data based on the Land Registry guidelines below:
+
+**A** - Added records: records added into the price paid dataset in the monthly refresh due to new sales transactions
+
+**C** - Changed records: records changed in the price paid dataset in the monthly refresh. You should replace or update records in any stored data using the unique identifier to recognise them
+
+**D** - Deleted records: records deleted from the price paid dataset in the monthly refresh. You should delete records from any stored data using the unique identifier to recognise them.

@@ -7,6 +7,13 @@ The UK House Price data shows changes in the value of residential properties acr
 
 ## What tools are available
 1. The `hpi-downloader` is a command line tool for downloading different HPI data in **CSV** format
+2. The `area_extractor` is a script that extracts the unique area static data from the CSV files
+2. The `schema` included is an overview schema that captures the average house price index for a given area without specific property details.
+
+## Notes on Schema
+The current schema is the overview subset of the HPI data that covers all property and sales types. If you wish to be more detailed, then it is recommended to either extend the table to include specific property HPI data e.g. `detached_avg_price`, `detached_index` etc.
+
+Or alternatively store the data in a separate table for each property type and transaction type.
 
 ## How to run the downloader
 The general format for running this script is:

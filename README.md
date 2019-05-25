@@ -16,3 +16,7 @@ Taken from [Land Registry](https://www.gov.uk/government/statistical-data-sets/p
 ### [House Price Index Data](hpi-data)
 
 Taken from [Land Registry](https://www.gov.uk/government/publications/hm-land-registry-data/public-data). This data shows UK House Price changes in the value of residential properties across the UK and over a period of time.
+
+### [Static Data](static-data)
+
+Here is a collection of useful static data, primarily related to location information. This includes regional, local authority and postcode data with simple database schema files to get started as a base. This static data usually connects up with the previos data from Land Registry and can be connected to other property data from various sources.
