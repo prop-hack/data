@@ -23,7 +23,7 @@ Here is a collection of useful static data, primarily related to location inform
 
 ### Commercial and Overseas Commercial Data
 
-This is a data provided by the Land Registry divided into two sets, one commercial property data purely in the UK and another set of data with regards to Overseas companies interacting with property in the UK.
+These are dataset provided by the Land Registry divided into two sets, one commercial property data purely in the UK and another set of data with regards to Overseas companies interacting with property in the UK.
 
 Unfortunately both data sets are not under the Open Government Licence and needs to be requested from their data team. We have provided the references below. Note that the information required to request data differs depending on whether you are an individual or a company.
 
