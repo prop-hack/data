@@ -30,3 +30,7 @@ Unfortunately both data sets are not under the Open Government Licence and needs
 [Commercial and Corporate Owners](https://www.gov.uk/guidance/hm-land-registry-commercial-and-corporate-ownership-data)
 
 [Overseas Companies Ownership Data](https://www.gov.uk/government/publications/overseas-companies-ownership-data-technical-specification/overseas-companies-ownership-data-technical-specification)
+
+### [Local Places Data](local-places)
+
+This an integration with Google Places API to retrieve local information for given lat/long within a radius. This is a starting point on creating a more detailed area map of a location and best used with Postcode geo lat/long.
