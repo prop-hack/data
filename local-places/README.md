@@ -9,7 +9,7 @@ The data is retrieved using a script and the output is in a JSON format, suitabl
 ## Notes on Schema
 No schema is provided here as you may not necessarily want to store them permanently and retrieve these details on a real time basis only. If you do want to store them, then it is recommended to use a short to long term caching strategy so your data is not too stale.
 
-## How to run the downloader
+## How to run the script
 
 The `get-local-places.py` script requires a Google API key which you can get from their account dashboard.
 Once you have the key you can either provide it as a parameter to the script or set is an environment variable called `GOOGLE_API_KEY`.
